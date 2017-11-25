@@ -1,0 +1,329 @@
+/*Mainn color #f1841e*/
+*{
+  box-sizing: border-box;
+}
+body{
+    font-family:  'Sans Serif' , 'Arial';
+}
+/*Start Main Header*/
+.main-header{
+  background-image: url('');
+  background-size: cover;
+  background-color: #000;
+}
+/*Start NavBar Styling*/
+.navbar-default {
+  background-color: #000;
+  border: none;
+  border-radius: 0;
+  height: 70px;
+}
+.nav > li {
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+  background-color: #f1841e;
+}
+.navbar-brand {
+}
+.navbar-brand{
+  margin-bottom: 20px;
+}
+.navbar-brand img {
+  height: 45px;
+}
+.navbar-nav {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background-color: #000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f1841e;
+}
+.navbar-default .navbar-toggle {
+  border-color: #f1841e;
+}
+.dropdown-menu {
+  background-color: #000;
+}
+.dropdown-menu > li > a {
+  color: #fff;
+}
+.dropdown-menu > li > a:hover ,
+.dropdown-menu > li > a:focus,
+.navbar-default .navbar-nav > .open > a,
+ .navbar-default .navbar-nav > .open > a:hover,
+ .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #f1841e;
+}
+
+
+/*End NavBarStyling*/
+.main-header .container .row  {
+  margin-top: 50px;
+}
+#typed {
+  color: #f1841e;
+  font-size: 25px;
+  margin-top: 100px;
+  text-transform: capitalize;
+}
+#typed span {
+  color: #fff;
+  font-size: 20px;
+}
+.typed-cursor  {
+  display: none;
+}
+/*End Main Header*/
+/*Start Our Services*/
+.our_services {
+  padding-top: 10px;
+  background-color: #fafcfe;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.our_services .container .row > div {
+  padding: 0 10px;
+}
+.our_services .container .row > div img {
+  display: inline-block;
+}
+.our_services .container .row > div  p a {
+  color: #ff9900;
+}
+.our_services .container .row > div h4 {
+  color: #f1841e;
+}
+/*End Our Services*/
+/*Start Our Process*/
+.our_process {
+  background-color: #f1841e;
+  padding: 0  0 20px;
+
+
+}
+
+.our_process div {
+
+}
+.our_process div:first-of-type img {
+  margin-top: 20px;
+}
+.our_process .container .row div .content  {
+  color: #000;
+}
+.our_process .container .row div .content i {
+  display: inline;
+  color: #fff;
+}
+.our_process .container .row div .content .row div:first-of-type{
+  padding-top: 25px;
+}
+/*End Our Process*/
+/*Start  Portfolio*/
+.portfolio {
+  background-color: #FFFF66;
+  padding: 20px 0 0;
+  color: #000;
+}
+.portfolio  .container h3 {
+  font-size: 27px;
+}
+.portfolio  .container p {
+  font-size: 18px;
+}
+.portfolio .container button {
+  padding: 15px 60px;
+  color: #000;
+  background-color: #FFCC00;
+  font-size: 18px;
+  border:1px solid #ff9900;
+  margin-top: 25px;
+
+}
+.portfolio .container  .row > div {
+  position: relative;
+  transition: all .5s ease-in-out;
+}
+.portfolio .container .row > div img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio .container .row  > div .overlay {
+     background-color: #f1841e;
+      position: absolute;
+      top: 0;
+      left: 15px;
+      height: 97%;
+      width: 94%;
+      opacity: 0;
+      padding-top: 90px;
+}
+.portfolio .container  .row > div .overlay a {
+  color: #fff;
+  font-size: 45px;
+  cursor:alias;
+
+}
+.portfolio .container .row > div .overlay i {
+  display: block;
+  cursor: pointer;
+  color: #FF0000;
+}
+.portfolio .container > .row div .overlay a:hover,
+.portfolio .container > .row div .overlay a:focus{
+  text-decoration: none;
+}
+.portfolio .container  .row div:first-of-type:hover .overlay,
+.portfolio .container  .row div:nth-of-type(2):hover .overlay,
+.portfolio .container  .row div:last-of-type:hover .overlay {
+  opacity: .8;
+}
+/*End  Portfolio*/
+/*Start Our Plans*/
+.plans {
+  padding-top: 20px;
+  background-color: #fafcfe;
+  padding-bottom: 10px;
+}
+.plans .container .row {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.plans .container .row > div  h4 {
+  font-size: 22px;
+}
+.plans .container .row > div img {
+  display: inline-block;
+  margin-top: 20px;
+}
+.plans .container .row  div .plan_name {
+    background-color: #f1841e;
+    padding: 20px 15px;
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+}
+.plans .container .row  div:first-of-type {
+  top:20px;
+  margin-bottom: 30px;
+}
+.plans .container .row  div:nth-of-type(3){
+  top: 25px;
+  margin-bottom: 30px;
+}
+
+.plans .container .row  div:nth-of-type(2) .plan_name,
+.plans .container .row  div:last-of-type .plan_name {
+  background-color: #2f424d;
+}
+.plans .container .row   .plan_name::after
+{
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border: 15px solid transparent;
+  border-bottom-color: #f1841e;
+  left: 43%;
+  top: 78px;
+  transform: rotate(-180deg);
+}
+.plans .container .row  div:nth-of-type(2) .plan_name::after,
+.plans .container .row  div:last-of-type .plan_name::after {
+  border-bottom-color: #2f424d;
+}
+.plans .container .row > div button {
+  background-color: #f1841e;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 18px;
+  border: 2px solid #888;
+}
+.plans .container  > button {
+  margin-top: 35px;
+  padding: 15px 25px;
+  font-size: 19px;
+}
+/*End Our Plans*/
+/*Start Ultimate Footer*/
+.ultimate_footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ultimate_footer .container  > .row > div:first-of-type img:first-of-type {
+  height: 125px;
+}
+.ultimate_footer .container > .row > div:first-of-type img:nth-of-type(2){
+  width: 150px;
+}
+.ultimate_footer .container  >.row > div:first-of-type p:last-of-type {
+  color: #f1841e;
+}
+.ultimate_footer .container  > .row > div:first-of-type ul li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.ultimate_footer .container > div.row > div:nth-of-type(2){
+  margin-top: 45px;
+}
+.ultimate_footer .container .adresses {
+  margin: 0;
+  margin-bottom: 6px;
+}
+.ultimate_footer .container .adresses i {
+  color: #f1841e;
+}
+.ultimate_footer .container > div.row div:nth-of-type(3) {
+  margin-top: 30px;
+}
+.ultimate_footer .container > div.row div:nth-of-type(3) input ,
+.ultimate_footer .container > div.row div:nth-of-type(3) button,
+.ultimate_footer .container > div.row div:nth-of-type(3) textarea
+{
+  display: block;
+  margin-bottom: 15px;
+  width: 90%;
+  padding: 10px;
+  background: none;
+  border: 2px solid #f1841e;
+}
+.ultimate_footer .container > div.row div:nth-of-type(3) button {
+  width: 40%;
+  margin-bottom: 20px;
+}
+#map {
+  height: 400px;
+  width: 100%;
+}
+/*End Ultimate Footer*/
+/*Start Scroll Top*/
+.scrolltop {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+.scrolltop i {
+  padding: 8px;
+  background-color: #000;
+  color: #fff;
+  display: block;
+  border: 2px solid #f1841e;
+  border-radius: 50%;
+  display: none;
+}
+/*End Scroll Top*/

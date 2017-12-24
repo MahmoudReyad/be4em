@@ -4,6 +4,7 @@
 }
 body{
     font-family:  'Sans Serif' , 'Arial';
+    max-width:1200px;
 }
 /*Start Main Header*/
 .main-header{
